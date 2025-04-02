@@ -1,0 +1,87 @@
+body{
+ background-color: rgb(243, 227, 206);
+ font-family: Arial, Helvetica, sans-serif; 
+ margin: 50px;
+ color:rgb(82, 55, 29) 
+}
+ .titulo-seccion {
+    color: #FF9A9A;
+
+}
+nav{
+    background-color: rgb(69, 56, 38);
+    color: rgb(219, 218, 161);
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}  
+nav a {
+color: antiquewhite;
+text-decoration: none;
+margin: 30px;
+} 
+h3,
+h4,
+H5 {
+    color: #795757
+}
+li{
+margin-left: 20px;
+}
+/* Ocultar el botón de hamburguesa en pantallas grandes */
+.button-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+  }
+  
+  /* Menú en móvil (oculto por defecto) */
+  @media screen and (max-width: 768px) {
+    
+    
+    .button-toggle {
+      display: block; /* Mostrar botón hamburguesa */
+    }
+  
+    .menu {
+      display: none; /* Ocultar el menú inicialmente */
+      flex-direction: column;
+      background: #ebd2ac;
+      position: absolute;
+      top: 80px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      padding: 10px 0;
+      border-radius: 5px;
+    }
+  
+    .menu a {
+      display: block;
+      padding: 10px;
+      color: white;
+    }
+  
+    /* Cuando el menú está abierto */
+    .menu.open {
+      display: flex;
+    }
+  }
+ button{
+    background-color: rgb(30, 30, 208);
+    color: rgb(240, 241, 242);
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+} 
+img{
+    height: 100%;
+    width: auto;
+}   
+#vinos-img{
+    height: 100px;
+    border:795757 ;
+} 
